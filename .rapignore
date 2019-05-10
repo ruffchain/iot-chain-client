@@ -1,0 +1,13 @@
+# See https://github.com/isaacs/node-glob
+
+test/**
+
+*.tar
+*.zip
+
+.*
+*~
+node_modules/**
+.eslintrc.json
+.vscode/
+README.md

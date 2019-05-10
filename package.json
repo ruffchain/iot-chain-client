@@ -1,0 +1,23 @@
+{
+  "name": "rfc5110-ruff",
+  "version": "0.1.0",
+  "description": "ruffchain demo",
+  "author": "yang",
+  "main": "src/index.js",
+  "ruff": {
+    "dependencies": {},
+    "version": 1
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
