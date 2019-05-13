@@ -1,0 +1,22 @@
+{
+    "name": "am335x-hzmc",
+    "version": "0.1.9",
+    "description": "Metadata for board am335x-hzmc v2.3",
+    "author": "Nanchao Inc.",
+    "ruff": {
+        "session-format": {
+            "address": {
+                "type": "string",
+                "description": "designate IP address",
+                "required": true,
+                "visible": true
+            }
+        },
+        "dependencies": {
+            "rs485-uart2": "^0.1.0"
+        }
+    },
+    "engines": {
+        "ruff": ">=1.7.3 <2.0.0"
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "ADC": [
+    ],
+    "RS485": [
+        {
+            "name": "RS485-1",
+            "port": "#uartext-1",
+            "baudRate": 9600,
+            "dataBits": 8,
+            "stopBits": 1,
+            "parity": "none"
+        },
+        {
+            "name": "RS485-2",
+            "port": "#uartext-2",
+            "baudRate": 9600,
+            "dataBits": 8,
+            "stopBits": 1,
+            "parity": "none"
+        },
+        {
+            "name": "RS485-3",
+            "port": "#uartext-3",
+            "baudRate": 9600,
+            "dataBits": 8,
+            "stopBits": 1,
+            "parity": "none"
+        },
+        {
+            "name": "RS485-4",
+            "port": "#uartext-4",
+            "baudRate": 9600,
+            "dataBits": 8,
+            "stopBits": 1,
+            "parity": "none"
+        }
+    ],
+    "RS232": [
+        {
+            "name": "RS232-1",
+            "port": "#uartext-1",
+            "baudRate": 9600,
+            "dataBits": 8,
+            "stopBits": 1,
+            "parity": "none"
+        },
+        {
+            "name": "RS232-2",
+            "port": "#uartext-2",
+            "baudRate": 9600,
+            "dataBits": 8,
+            "stopBits": 1,
+            "parity": "none"
+        },
+        {
+            "name": "RS232-3",
+            "port": "#uartext-3",
+            "baudRate": 9600,
+            "dataBits": 8,
+            "stopBits": 1,
+            "parity": "none"
+        },
+        {
+            "name": "RS232-4",
+            "port": "#uartext-4",
+            "baudRate": 9600,
+            "dataBits": 8,
+            "stopBits": 1,
+            "parity": "none"
+        }
+    ],
+    "USB-UART": [
+        {
+            "name": "USB-UART-1",
+            "path": "/dev/ttyUSB0",
+            "baudRate": 9600,
+            "dataBits": 8,
+            "stopBits": 1,
+            "parity": "none"
+        },
+        {
+            "name": "USB-UART-2",
+            "path": "/dev/ttyUSB1",
+            "baudRate": 9600,
+            "dataBits": 8,
+            "stopBits": 1,
+            "parity": "none"
+        }
+    ],
+    "NET": [
+        {
+            "name": "ETH0"
+        },
+        {
+            "name": "ETH1"
+        },
+        {
+            "name": "WLAN0"
+        }
+    ]
+}
