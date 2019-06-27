@@ -8,10 +8,10 @@ var runSwitch = require('../lib/taskSwitch').switchIt;
 
 // default state is off
 var currentState = 'unlock';
-runSwitch(0, function () {});
+runSwitch(0, function () { });
 
 var client = new Client({
-    serveraddr: '40.73.35.23',
+    serveraddr: '40.73.1.241',
     port: 18089
 });
 
@@ -62,10 +62,10 @@ function handleWithState(resp) {
 
     if (stateSwitch === 'lock' && stateSwitch !== currentState) {
         currentState = 'lock';
-        runSwitch(1, function () {});
+        runSwitch(1, function () { });
     } else if (stateSwitch === 'unlock' && stateSwitch !== currentState) {
         currentState = 'unlock'
-        runSwitch(0, function () {});
+        runSwitch(0, function () { });
     } else {
         console.log('Unrecognized state: ', stateSwitch)
         console.log('Or currentState is: ', currentState)
